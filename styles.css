@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
-    padding:10px 100px;
+    padding:20px 100px;
     align-items: center;
   
 }
@@ -31,6 +31,7 @@ h1 {
 .hright {
     gap: 16px;
     display:flex;
+    color: #E5E7EB;
 }
 
 .lvl1 {
@@ -42,8 +43,10 @@ h1 {
     gap:24px;
 }
 
-.left {
-    align-items:stretch;
+.oneleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #hero1 {
@@ -58,18 +61,20 @@ h1 {
     padding: 8px 24px;
     border-radius: 5px;
     border: 2px solid #1F2937;
+    max-width: 120px;
 }
 
 #hero2 {
     font-size: 18px;
     color:#E5E7EB;
     padding:10px 0px;
+    margin-bottom: 40px;
 }
 
 .lvl2 {
     display:flex;
     flex-direction:column;
-    padding: 30px 150px;
+    padding: 40px 150px 100px;
 }
 
 #information {
