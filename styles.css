@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
+    margin: 0px; 
+    /* margin 0 to remove the outline */
 }
 
 .header {
@@ -17,6 +19,7 @@ body {
     color: white;
     padding:10px 100px;
     align-items: center;
+  
 }
 
 h1 {
@@ -62,7 +65,7 @@ h1 {
 .lvl2 {
     display:flex;
     flex-direction:column;
-    padding: 30px 100px;
+    padding: 30px 150px;
 }
 
 #information {
@@ -88,6 +91,23 @@ h1 {
     display:flex;
     flex-direction: column;
     padding: 10px 100px;
+    background-color: #E5E7EB;
+    padding:  75px 150px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    /* combine italix and lighter for light italic */
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 17px;
+    padding-right: 20px;
 }
 
 .lvl4 {
